@@ -13,7 +13,7 @@ const Home = () => {
       <Doctors
         doctors={doctors}
         appointments={appointments}
-        setAppointments={setAppointments}
+        setDoctors={setDoctors}
       />
       <AppointmentList
         appointments={appointments}
